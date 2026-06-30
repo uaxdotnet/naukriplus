@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
-  "name": "NaukriPlusPlus",
-  "version": "2.0",
+  "manifest_version": 3,
+  "name": "NaukriPlus",
+  "version": "3.0",
 
   "description": "Adds accurate numbers to applicants for each job.",
   "browser_specific_settings": {
-    "id" : "{1f068a4e-cd2b-4ff3-9d8e-451c93d5ff9b}" ,
+    "id": "{1f068a4e-cd2b-4ff3-9d8e-451c93d5ff9b}",
     "gecko": {
       "data_collection_permissions": {
         "required": ["none"]
@@ -17,15 +17,22 @@
     {
       "matches": ["*://www.naukri.com/*"],
       "js": ["naukriplus.js"],
-      "run_at" : "document_start"
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["naukriplus.inject.js"],
+      "matches": ["*://www.naukri.com/*"]
     }
   ],
   "icons": {
     "48": "icons/icon.svg",
-    "96": "icons/icon.svg"
+    "96": "icons/icon.svg",
+    "128": "icons/icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon.svg",
-    "default_title": "NaukriPlusPlus"
+    "default_title": "NaukriPlus"
   }
 }
