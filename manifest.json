@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "NaukriPlus",
-  "version": "3.0",
+  "version": "3.1",
 
   "description": "Adds accurate numbers to applicants for each job.",
   "browser_specific_settings": {
