@@ -4,9 +4,10 @@ Naukriplus is a simple extension to display accurate job applicant numbers on Na
 
 ## Installation
 
-Firefox : https://addons.mozilla.org/en-US/firefox/addon/naukriplus/
-Chrome : https://chromewebstore.google.com/detail/naukriplus/njialmipfbakpgglndcmlijojpmjichi
-Github-Releases: https://github.com/uaxdotnet/naukriplus/releases
+- Firefox : https://addons.mozilla.org/en-US/firefox/addon/naukriplus/
+- Chrome : https://chromewebstore.google.com/detail/naukriplus/njialmipfbakpgglndcmlijojpmjichi
+- Github-Releases: https://github.com/uaxdotnet/naukriplus/releases
+
 
 ## Demonstration
 
